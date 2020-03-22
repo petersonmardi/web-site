@@ -1,7 +1,7 @@
 	body {
 		margin: 0;
 		padding: 0;
-		/* background-color: #e6e6e6; */
+		font-family: 'Philosopher', sans-serif;
 	}
 
 * {
@@ -166,6 +166,7 @@
 		 background-repeat: no-repeat;
 		 background-size: cover;
 		 background-attachment: fixed;
+		 font-family: 'Philosopher', sans-serif;
 	 }
 	 #submit {
 		margin-top: 25px;
