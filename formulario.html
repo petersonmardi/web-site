@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body class="fbody">
+    
+		<div class="navbar navbar-form">
+			<a class="active" href="index.html">Inicio</a>
+			<a href="sobre-nosotros.html">Sobre nosotros</a>
+			<a href="contacto.html">Contactos</a>
+			<a href="tienda.html">Tienda</a>
+		</div>
+    <div class="form">
+            <form>
+                <img class="form-logo" src="./image/spreadcoffee.png" alt="logo" width="250px" height="auto"> <hr>
+                <p>Nombre:</p>
+                <input type="text" id="fname" name="fname" placeholder=" Peterson" autofocus> <br>
+                
+
+                <p>Apellido:</p>
+                <input type="text" id="lname" name="lname" placeholder=" Mardi"> <br>
+                
+                <p>Correo electrónico:</p>
+                <input type="email" id="email" name="email" placeholder=" petersonmardi@gmail.com"> <br>
+                
+                <p class="order">Elige tu pedido!!! </p>
+
+                <label for="coffee">Café</label>
+                <input type="checkbox" class="checkbox" id="coffee" name="coffee">
+                
+                <label for="tea">Té</label>
+                <input type="checkbox" class="checkbox1" id="tea" name="tea">
+                
+                <label for="coockies">Galletas</label>
+                <input type="checkbox" class="checkbox2" id="coockies" name="coockies">
+
+                <label for="milk">Leche</label>
+                <input type="checkbox" class="checkbox3" id="coockies" name="coockies">
+
+                <p>Describe como tú lo quieres</p> 
+                <textarea class="tx-area" name="describe" id="" cols="30" rows="5"></textarea><br>
+                
+
+                <p>Dirección:</p>
+                <input type="text" id="address" name="address" placeholder=" Calle Delmonte y Tejada, Ave. Mella #120, 10211"> <br>
+
+                <input type="submit" id="submit" value="Pedir">
+            </form>
+    </div>
+
+
+<footer id="footer">
+    <p>SpreadCoffee&copy; - 2020</p>
+    <p>Santo Domingo, RD</p>
+</footer>
+</body>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
