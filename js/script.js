@@ -56,7 +56,7 @@
 	if (hour >= 5 && hour <= 12 && (day == 5 || day == 0)){
 		msg1 = '6h am - 1h pm (Abierto)';
 	}
-	else if (day < 6 || day > 0) {
+	else if (day > 0 || day < 6) {
 		msg1 = 'No está disponible ahora';
 	}
 	else {
